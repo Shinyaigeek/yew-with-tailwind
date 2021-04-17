@@ -1,0 +1,17 @@
+{
+  "name": "yew-with-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Shinyaigeek/yew-with-tailwind.git",
+  "author": "shinyaigeek <PhilisPaxil@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^2.1.1"
+  },
+  "scripts": {
+    "build:style": "tailwindcss build assets/style.css -o dist/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5"
+  }
+}
